@@ -1,9 +1,10 @@
 {
   "name": "zeit-play",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "mkdir public && cp subfolder/* public",
+    "build": "mkdir public && cp src/* public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
