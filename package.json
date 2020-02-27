@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "rm -rf public && mkdir build && cp src/* build",
+    "build": "rm -rf public && rm -rf build && mkdir build && cp src/* build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
